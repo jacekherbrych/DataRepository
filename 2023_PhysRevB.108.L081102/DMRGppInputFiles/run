@@ -1,0 +1,16 @@
+./dmrg -f GS.inp 2>&1
+
+./observe -f GS.inp "<gs|n|gs>" &> ev_n0.dat
+./observe -f GS.inp "<gs|sz|gs>" &> ev_sz.dat
+./observe -f GS.inp "<gs|Sz|gs>" &> ev_Sz.dat
+
+./observe -f GS.inp "<gs|SzTot;SzTot|gs>" &> corr_szsz.dat
+./observe -f GS.inp "<gs|SpTot;SmTot|gs>" &> corr_spsm.dat
+./observe -f GS.inp "<gs|SmTot;SpTot|gs>" &> corr_smsp.dat
+
+./observe -f GS.inp "<gs|c?0';c?0|gs>" &> corr_cc_up.dat
+./observe -f GS.inp "<gs|c?1';c?1|gs>" &> corr_cc_down.dat
+
+./dmrg -f Dyn_Akw-e.inp "<gs|c?0'+c?1'|P1>,<gs|c?0'+c?1'|P2>"
+
+./dmrg -f Dyn_Akw-h.inp "<gs|c?0+c?1|P1>,<gs|c?0+c?1|P2>"

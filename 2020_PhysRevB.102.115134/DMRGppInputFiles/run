@@ -1,0 +1,8 @@
+./dmrg -f gs.inp
+
+./observe -f gs.inp "<gs|Sz+sz;Sz+sz|gs>" >> corr_zzt.txt
+./observe -f gs.inp "<gs|sz;sz|gs>" >> corr_zz0.txt
+./observe -f gs.inp "<gs|Sz;Sz|gs>" >> corr_zz1.txt
+
+./dmrg -f dyn_pm.inp "<gs|c?0*c?1'+Splus|P2>,<gs|c?0*c?1'+Splus|P3>"
+./dmrg -f dyn_zz.inp "<gs|sz+Sz|P2>,<gs|sz+Sz|P3>"

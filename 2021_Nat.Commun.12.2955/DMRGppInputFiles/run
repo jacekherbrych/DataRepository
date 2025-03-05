@@ -1,0 +1,40 @@
+
+./dmrg -f gs.inp
+
+./observe -f gs.inp "<gs|c?0*c?1'+Splus;c?1*c?0'+Splus'|gs>"
+./observe -f gs.inp "<gs|sz+Sz;sz+Sz|gs>"
+./observe -f gs.inp "<gs|sz|gs>"
+./observe -f gs.inp "<gs|Sz|gs>"
+./observe -f gs.inp "<gs|c?0';c?0|gs>"
+./observe -f gs.inp "<gs|c?1';c?1|gs>"
+./observe -f gs.inp "<gs|c?0'+c?1';c?0+c?1|gs>"
+./observe -f gs.inp "<gs|c?0';c?0'|gs>"
+./observe -f gs.inp "<gs|c?1';c?1'|gs>"
+./observe -f gs.inp "<gs|c?0'+c?1';c?0'+c?1'|gs>"
+./observe -f gs.inp "<gs|c?0;c?0|gs>"
+./observe -f gs.inp "<gs|c?1;c?1|gs>"
+./observe -f gs.inp "<gs|c?0+c?1;c?0+c?1|gs>"
+./observe -f gs.inp "<gs|c?0';c?1'|gs>"
+./observe -f gs.inp "<gs|c?0;c?1|gs>"
+
+for i in `seq 0 34`; do
+for k in `seq $i 34`; do
+ j=$((i+1))
+ l=$((k+1))
+ ./observe -f gs.inp "<gs|c[$i]?0*c[$i]?1'+Splus[$i];sz[$j]+Sz[$j];c[$k]?1*c[$k]?0'+Splus[$k]';sz[$l]+Sz[$l]|gs>
+ ./observe -f gs.inp "<gs|c[$i]?1*c[$i]?0'+Splus[$i]';sz[$j]+Sz[$j];c[$k]?0*c[$k]?1'+Splus[$k];sz[$l]+Sz[$l]|gs>
+ ./observe -f gs.inp "<gs|sz[$i]+Sz[$i];c[$j]?0*c[$j]?1'+Splus[$j];sz[$k]+Sz[$k];c[$l]?1*c[$l]?0'+Splus[$l]'|gs>
+ ./observe -f gs.inp "<gs|sz[$i]+Sz[$i];c[$j]?1*c[$j]?0'+Splus[$j]';sz[$k]+Sz[$k];c[$l]?0*c[$l]?1'+Splus[$l]|gs>
+ ./observe -f gs.inp "<gs|sz[$i]+Sz[$i];c[$j]?0*c[$j]?1'+Splus[$j];c[$k]?1*c[$k]?0'+Splus[$k]';sz[$l]+Sz[$l]|gs>
+ ./observe -f gs.inp "<gs|sz[$i]+Sz[$i];c[$j]?1*c[$j]?0'+Splus[$j]';c[$k]?0*c[$k]?1'+Splus[$k];sz[$l]+Sz[$l]|gs>
+ ./observe -f gs.inp "<gs|c[$i]?0*c[$i]?1'+Splus[$i];sz[$j]+Sz[$j];sz[$k]+Sz[$k];c[$l]?1*c[$l]?0'+Splus[$l]'|gs>
+ ./observe -f gs.inp "<gs|c[$i]?1*c[$i]?0'+Splus[$i]';sz[$j]+Sz[$j];sz[$k]+Sz[$k];c[$l]?0*c[$l]?1'+Splus[$l]|gs>
+ ./observe -f gs.inp "<gs|c[$i]?0*c[$i]?1'+Splus[$i];c[$j]?1*c[$j]?0'+Splus[$j]';c[$k]?0*c[$k]?1'+Splus[$k];c[$l]?1*c[$l]?0'+Splus[$l]'|gs>
+ ./observe -f gs.inp "<gs|c[$i]?0*c[$i]?1'+Splus[$i];c[$j]?1*c[$j]?0'+Splus[$j]';c[$k]?1*c[$k]?0'+Splus[$k]';c[$l]?0*c[$l]?1'+Splus[$l]|gs>
+ ./observe -f gs.inp "<gs|c[$i]?1*c[$i]?0'+Splus[$i]';c[$j]?0*c[$j]?1'+Splus[$j];c[$k]?0*c[$k]?1'+Splus[$k];c[$l]?1*c[$l]?0'+Splus[$l]'|gs>
+ ./observe -f gs.inp "<gs|c[$i]?1*c[$i]?0'+Splus[$i]';c[$j]?0*c[$j]?1'+Splus[$j];c[$k]?1*c[$k]?0'+Splus[$k]';c[$l]?0*c[$l]?1'+Splus[$l]|gs>
+done
+done
+
+./dmrg -f dyn_ccd.inp "<gs|c?0'+c?1'|P2>,<gs|c?0'+c?1'|P3>"
+./dmrg -f dyn_cdc.inp "<gs|c?0+c?1|P2>,<gs|c?0+c?1|P3>"

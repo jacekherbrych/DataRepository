@@ -1,0 +1,75 @@
+TotalNumberOfSites=36
+
+Model=KondoEx
+HeisenbergTwiceS=1
+
+KondoHx=0.00
+ElectronHx=0.00
+PairingField 36
+asdpair asdpair asdpair asdpair asdpair asdpair asdpair asdpair
+asdpair asdpair asdpair asdpair asdpair asdpair asdpair asdpair
+asdpair asdpair asdpair asdpair asdpair asdpair asdpair asdpair
+asdpair asdpair asdpair asdpair asdpair asdpair asdpair asdpair
+asdpair asdpair asdpair asdpair asdpair
+
+NumberOfTerms=4
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.5
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 asdk
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 asdk
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.0
+
+kondoJ 36
+asdhund asdhund asdhund asdhund asdhund asdhund asdhund asdhund
+asdhund asdhund asdhund asdhund asdhund asdhund asdhund asdhund
+asdhund asdhund asdhund asdhund asdhund asdhund asdhund asdhund
+asdhund asdhund asdhund asdhund asdhund asdhund asdhund asdhund
+asdhund asdhund asdhund asdhund
+
+hubbardU 36
+asdu asdu asdu asdu asdu asdu asdu asdu
+asdu asdu asdu asdu asdu asdu asdu asdu
+asdu asdu asdu asdu asdu asdu asdu asdu
+asdu asdu asdu asdu asdu asdu asdu asdu
+asdu asdu asdu asdu
+
+potentialV 72
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+asdpot asdpot asdpot asdpot asdpot asdpot asdpot asdpot
+
+SolverOptions=CorrectionTargeting,vectorwithoffsets,calcAndPrintEntropies
+CorrectionA=0.001
+Version=5.31
+OutputFile=dataGS.txt
+InfiniteLoopKeptStates=128
+FiniteLoops 11
+ 17 1000 0
+-34 1000 0 34 1000 0
+-34 1000 0 34 1000 0
+-34 1000 0 34 1000 0
+-34 1000 0 34 1000 0
+-34 1000 0 34 1000 1
+Threads=16
+

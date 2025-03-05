@@ -1,0 +1,77 @@
+TotalNumberOfSites=48
+
+Model=Kondo
+HeisenbergTwiceS=1
+
+TargetElectronsTotal=24
+TargetSzPlusConst=36
+
+NumberOfTerms=4
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.5
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.042
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.042
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.0
+
+kondoJ 48
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+-1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050 -1.050
+
+hubbardU 48
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+2.10 2.10 2.10 2.10 2.10 2.10 2.10 2.10
+
+potentialV 96
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+SolverOptions=restart,CorrectionVectorTargeting,vectorwithoffsets
+CorrectionA=0.0
+Version=5.31
+InfiniteLoopKeptStates=128
+FiniteLoops 7
+-46 1200 0 
+46 1200 2 -46 1200 2 
+46 1200 2 -46 1200 2 
+46 1200 2 -46 1200 2 
+Threads=8
+OutputFile=dyntot_asd2.txt
+DynamicDmrgType=0
+TSPSites 1 23
+TSPLoops 1 1
+TSPProductOrSum=sum
+CorrectionVectorFreqType=Real
+CorrectionVectorEta=!!!ValueOfEta!!!
+CorrectionVectorAlgorithm=Krylov
+RestartFilename=../dataGS.txt
+GsWeight=0.1
+CorrectionVectorOmega=!!!ValueOfOmega!!!
+TSPOperator=expression
+OperatorExpression=sz+Sz

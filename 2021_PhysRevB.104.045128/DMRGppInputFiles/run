@@ -1,0 +1,8 @@
+./dmrg -f GS.inp 2>&1
+
+./observe -f GS.inp "<gs|SzTot;SzTot|gs>" &> corr_szsz.dat
+./observe -f GS.inp "<gs|SpTot;SmTot|gs>" &> corr_spsm.dat
+./observe -f GS.inp "<gs|SmTot;SpTot|gs>" &> corr_smsp.dat
+
+./observe -f GS.inp "<gs|c?0';c?0|gs>" &> corr_cc_up.dat
+./observe -f GS.inp "<gs|c?1';c?1|gs>" &> corr_cc_down.dat

@@ -1,0 +1,70 @@
+TotalNumberOfSites=40
+NumberOfTerms=1
+DegreesOfFreedom=2
+MaxMatrixRankStored=2
+
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 2 2
+-0.5  0.0
+ 0.0 -0.5
+
+Model=FeAsBasedSc
+FeAsMode=INT_PAPER33
+Orbitals=2
+
+hubbardU 4 1.0 0.3750 -0.5000 -0.2500
+
+TargetElectronsUp=40
+TargetElectronsDown=40
+
+potentialV 160
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+SolverOptions=restart,CorrectionVectorTargeting,vectorwithoffsets
+RestartFilename=GS.hd5
+CorrectionA=0
+Version=Version
+
+InfiniteLoopKeptStates=2048
+FiniteLoops 15
+-38 2048 0
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+38 2048 2 -38 2048 2
+
+Threads=4
+
+OutputFile=dyn_zz.hd5
+DynamicDmrgType=0
+TSPSites 2 38 39
+TSPLoops 2 1 1
+TSPProductOrSum=sum
+CorrectionVectorFreqType=Real
+CorrectionVectorEta=0.005
+CorrectionVectorAlgorithm=Krylov
+GsWeight=0.1
+CorrectionVectorOmega=0.0
+TSPOperator=expression
+OperatorExpression=identity
+TSPOperator=expression
+OperatorExpression=sz?0+sz?1

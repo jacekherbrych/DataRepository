@@ -1,0 +1,70 @@
+TotalNumberOfSites=48
+
+Model=Kondo
+HeisenbergTwiceS=1
+
+TargetElectronsTotal=24
+TargetSzPlusConst=36
+
+NumberOfTerms=4
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.5
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.0214
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.0214
+
+DegreesOfFreedom=1
+GeometryKind=chain
+GeometryOptions=ConstantValues
+Connectors 1 0.0
+
+kondoJ 48
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+-2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100 -2.100
+
+hubbardU 48
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+4.20 4.20 4.20 4.20 4.20 4.20 4.20 4.20
+
+potentialV 96
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0
+
+SolverOptions=CorrectionTargeting,vectorwithoffsets
+CorrectionA=0.001
+Version=5.31
+OutputFile=dataGS.txt
+InfiniteLoopKeptStates=128
+FiniteLoops 15
+ 23 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 0
+-46 1000 0 46 1000 1
+Threads=8
+
