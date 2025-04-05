@@ -2,10 +2,11 @@
 
 J. Herbrych, M. Środa, G. Alvarez, M. Mierzejewski, and E. Dagotto
 
-[Nat. Commun. 12, 2955 (2021)](https://www.nature.com/articles/s41467-021-23261-2)
+* Publication: [Nat. Commun. 12, 2955 (2021)](https://www.nature.com/articles/s41467-021-23261-2)
+* Preprint: [arXiv: cond-mat/2104.07801](http://arxiv.org/abs/2104.07801)
 
-[arXiv: cond-mat/2104.07801](http://arxiv.org/abs/2104.07801)
+Project supported by:
+* [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035
+* [National Science Centre (NCN), Poland](https://www.ncn.gov.pl/en) under contract 2019/35/B/ST3/01207
 
-Project supported by [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035 and by [National Science Centre (NCN), Poland](https://www.ncn.gov.pl/en) under contract 2019/35/B/ST3/01207
-
-Supplemental data and sources for the paper provided by J. Herbrych.
+Files provided by J. Herbrych

@@ -2,10 +2,10 @@
 
 J. Herbrych, G. Alvarez, A. Moreo, and E. Dagotto
 
-[Phys. Rev. B 102, 115134 (2020)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.115134)
+* Publication: [Phys. Rev. B 102, 115134 (2020)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.115134)
+* Preprint: [arXiv: cond-mat/2006.09495](http://arxiv.org/abs/2006.09495)
 
-[arXiv: cond-mat/2006.09495](http://arxiv.org/abs/2006.09495)
+Project supported by:
+* [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035
 
-Project supported by [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035
-
-Input files provided by J. Herbrych.
+Files provided by J. Herbrych
