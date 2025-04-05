@@ -6,4 +6,6 @@ J. Herbrych, J. Heverhagen, G. Alvarez, M. Daghofer, A. Moreo, and E. Dagotto
 
 [arXiv: cond-mat/1911.12248](http://arxiv.org/abs/1911.12248)
 
+Project supported by [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035
+
 Supplemental data and input files provided by J. Herbrych.

@@ -6,4 +6,6 @@ M. Środa, E. Dagotto, and J. Herbrych
 
 [arXiv: cond-mat/2105.04391](https://arxiv.org/abs/2105.04391)
 
+Project supported by [Polish National Agency for Academic Exchange (NAWA)](https://nawa.gov.pl/en/) under contract PPN/PPO/2018/1/00035 and by [National Science Centre (NCN), Poland](https://www.ncn.gov.pl/en) under contract 2019/35/B/ST3/01207.
+
 Input files provided by M. Środa.
