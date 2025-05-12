@@ -2,7 +2,7 @@
 
 J. Herbrych, M. Środa, G. Alvarez, M. Mierzejewski, and E. Dagotto
 
-* Publication: [Nat. Commun. 12, 2955 (2021)](https://www.nature.com/articles/s41467-021-23261-2)
+* Publication: [Nat. Commun. **12**, 2955 (2021)](https://www.nature.com/articles/s41467-021-23261-2)
 * Preprint: [arXiv: cond-mat/2104.07801](http://arxiv.org/abs/2104.07801)
 
 Project supported by:

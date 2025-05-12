@@ -2,7 +2,7 @@
 
 J. Herbrych, G. Alvarez, A. Moreo, and E. Dagotto
 
-* Publication: [Phys. Rev. B 102, 115134 (2020)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.115134)
+* Publication: [Phys. Rev. B **102**, 115134 (2020)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.115134)
 * Preprint: [arXiv: cond-mat/2006.09495](http://arxiv.org/abs/2006.09495)
 
 Project supported by:

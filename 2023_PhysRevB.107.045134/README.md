@@ -1,8 +1,8 @@
 # Quasiballistic transport in long-range anisotropic Heisenberg model #
 
-M. Mierzejewski, J. Wronowicz, J. Pawłowski, J. Herbrych
+M. Mierzejewski, J. Wronowicz, J. Pawłowski, and J. Herbrych
 
-* Publication: [Phys. Rev. B 107, 045134 (2023)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045134)
+* Publication: [Phys. Rev. B **107**, 045134 (2023)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.045134)
 * Preprint: [arXiv: cond-mat/2206.05960](https://arxiv.org/abs/2206.05960)
 
 Project supported by:

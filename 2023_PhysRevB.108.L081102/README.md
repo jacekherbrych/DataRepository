@@ -2,7 +2,7 @@
 
 M. Środa, J. Mravlje, G. Alvarez, E. Dagotto, and J. Herbrych
 
-* Publication: [Phys. Rev. B 108, L081102 (2023)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L081102)
+* Publication: [Phys. Rev. B **108**, L081102 (2023)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L081102)
 * Preprint: [arXiv: cond-mat/2210.11209](https://arxiv.org/abs/2210.11209)
 
 Project supported by:

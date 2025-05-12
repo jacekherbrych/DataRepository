@@ -2,7 +2,7 @@
 
 M. Środa, E. Dagotto, and J. Herbrych
 
-* Publication: [Phys. Rev. B 104, 045128 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.045128)
+* Publication: [Phys. Rev. B **104**, 045128 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.045128)
 * Preprint: [arXiv: cond-mat/2105.04391](https://arxiv.org/abs/2105.04391)
 
 Project supported by:
