@@ -1,0 +1,8 @@
+# position where binding energy changes sign
+# two-orbital Hubbard model
+# t=0.5 L=60 Jh=U/4
+
+0.0 0.405 3.5075
+0.1 0.8875 5.1925
+0.2 1.08 4.2675
+0.3 1.6 3.5075

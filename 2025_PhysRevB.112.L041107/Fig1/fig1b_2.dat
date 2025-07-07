@@ -1,0 +1,8 @@
+# position of spin gap opening & closing
+# two-orbital Hubbard model
+# t=0.5 L=60 Jh=U/4
+
+0.0 0.4925 0
+0.1 1.08 7.7
+0.2 1.945 5.7
+0.3 2.8825 4.2675
